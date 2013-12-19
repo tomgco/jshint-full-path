@@ -4,6 +4,9 @@
   "description": "Have a full path available to use for clicking in jshint",
   "main": "index.js",
   "bin": "index.js",
+  "publishConfig": {
+    "registry": "http://registry.npmjs.org/"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
